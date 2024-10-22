@@ -27,6 +27,7 @@ def extract(source):
     return value
 
 
+
 def send_email(message):
     host = "smtp.gmail.com"
     port = 465

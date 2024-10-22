@@ -25,3 +25,4 @@ cursor.execute("SELECT * FROM event")
 rows = cursor.fetchall() # it always return a list of string with execute
 # and with executemany it always return a list of tuple.
 print(rows)
+
